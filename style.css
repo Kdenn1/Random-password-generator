@@ -30,6 +30,8 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -39,7 +41,10 @@ header {
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
+  height: 700px;
   padding: 30px 40px;
+  align-items: center;
+  text-align: center;
 }
 
 .card-header::after {
@@ -56,6 +61,7 @@ header {
 
 .card-footer {
   text-align: center;
+  margin-top: 20px;
 }
 
 .card-footer::before {
