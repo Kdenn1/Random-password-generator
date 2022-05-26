@@ -15,13 +15,17 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  align-items: center;
 }
 
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+.settings {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  
 }
+
 
 header {
   text-align: center;
