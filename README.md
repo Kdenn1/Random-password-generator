@@ -1,7 +1,12 @@
 # Random-password-generator
-this is where the random password generator webpage for the module 3 challenge is stored. 
+The random password generator is a browser application that allows the user to generate a random password based on some prerequisites that they decide such as the length of the password, if there are numbers and capital letters as well as special characters. 
 
-Here are the requirements:
+# User Story
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security.
+
+## Requirements 
 
 - when clicking the button to generate a random password
   user is prompted with password criteria they can select
@@ -23,5 +28,11 @@ Here are the requirements:
 - when the password is generated the password is either
   given as an alert (top of browser) or on the screen
   in the text box
+
+# Process and tools used 
+For this project I utilized HTML and some simple CSS for the basic design of the website itself and I used Javascript to control the background processes and recieve the inputs that the user decides on in order to generate their unique password.
+
+## Credits 
+This project was designed and configured by Kaeden Wodke. https://github.com/Kdenn1
 
 
