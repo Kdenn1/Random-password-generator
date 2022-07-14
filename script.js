@@ -17,7 +17,7 @@ button.addEventListener("click", function (e) {
             //messages for each character outcome
     var lowercase = window.confirm("Do you want lowercase letters in your password?");
     var uppercase = window.confirm("Do you want uppercase letters in your password?");
-    var numbers = window.confirm("Do you want numbers in your password?");
+    var numbersQ = window.confirm("Do you want numbers in your password?");
     var specialcharacters = window.confirm("Do you want special characters in your password? Ex.!@#$%");
             
     if (!lowercase && !uppercase && !numbers && !specialcharacters) {
@@ -37,27 +37,26 @@ button.addEventListener("click", function (e) {
     var characterList = '';
     if (lowercase) {
         characterList = characterList + letters
-    }
+    } 
     if (uppercase) {
-        characterList = characterList + letters.toUpperCase();
-    }
-    if (numbers) {
-        characterList = characterList + numbers
-    }
+        characterList = characterList + letters.toUpperCase() 
+    } 
+
+    if (numbersQ) {
+        characterList = characterList + numbers 
+    } 
     if (specialcharacters) {
-        characterList = characterList + specialcharacters
+        characterList = characterList + characters 
     }
 
-    
     var password = ""
     while (lengthP) {
         password = password + characterList[Math.floor(Math.random() *characterList.length)];
         lengthP--;
-    }
-    document.querySelector("textarea").innerText = password;
+    } 
+
+        document.querySelector("textarea").innerText = password;
 });
-
-
 
 
 
